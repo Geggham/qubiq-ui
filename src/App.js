@@ -70,10 +70,10 @@ function App() {
           </div>
         </div>
 
-        <div className="absolute top-40 left-6 flex items-start gap-10 w-full">
+        <div className="absolute top-40 left-6 flex items-start gap-10 w-full flex-wrap sm:flex-nowrap">
           <div className="flex flex-col items-start space-y-6 w-full">
-            <div className="flex items-center gap-10 w-full justify-between">
-              <h1 className="text-[72px] leading-[110%] tracking-[0] text-[#303030] font-archivo font-semibold">
+            <div className="flex items-center gap-10 w-full justify-between flex-wrap sm:flex-nowrap">
+              <h1 className="text-[72px] leading-[110%] tracking-[0] text-[#303030] font-archivo font-semibold text-center sm:text-left">
                 <div>The yield-backed</div>
                 <div>stablecoin protocol</div>
                 <div>boosting DeFi liquidity</div>
@@ -81,16 +81,16 @@ function App() {
               <img
                 src={logoMain}
                 alt="Big Logo"
-                className="w-[212px] h-[212px] object-contain"
+                className="w-[212px] h-[212px] object-contain mx-auto sm:mx-0"
               />
             </div>
 
-            <h3 className="text-[20px] leading-[100%] tracking-[0] text-[#2626268C] font-gilroy font-normal">
+            <h3 className="text-[20px] leading-[100%] tracking-[0] text-[#2626268C] font-gilroy font-normal text-center sm:text-left">
               Keep your yield working for you — we keep your liquidity
               accessible
             </h3>
 
-            <div className="flex items-center gap-4 mt-2 pt-[40px]">
+            <div className="flex items-center gap-4 mt-2 pt-[40px] justify-center sm:justify-start">
               {buttons}
             </div>
 
