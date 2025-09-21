@@ -70,9 +70,9 @@ function App() {
           </div>
         </div>
 
-        <div className="absolute top-40 left-6 flex items-start gap-10">
-          <div className="flex flex-col items-start space-y-6">
-            <div className="flex items-center gap-10">
+        <div className="absolute top-40 left-6 flex items-start gap-10 w-full">
+          <div className="flex flex-col items-start space-y-6 w-full">
+            <div className="flex items-center gap-10 w-full justify-between">
               <h1 className="text-[72px] leading-[110%] tracking-[0] text-[#303030] font-archivo font-semibold">
                 <div>The yield-backed</div>
                 <div>stablecoin protocol</div>
@@ -81,7 +81,7 @@ function App() {
               <img
                 src={logoMain}
                 alt="Big Logo"
-                className="w-[212px] h-[212px] object-contain translate-x-[200px]"
+                className="w-[212px] h-[212px] object-contain"
               />
             </div>
 
